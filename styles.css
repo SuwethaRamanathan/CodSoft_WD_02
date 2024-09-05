@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  
+  color: #333;
+  background: url('https://previews.123rf.com/images/teteraandrey/teteraandrey2305/teteraandrey230502205/204887371-computer-graphic-design-of-an-engine-generated-by-ai.jpg') no-repeat center center/cover;
+}
+
+/* Navigation Styles */
+header {
+  background: #5a0404;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background: #b32d04;
+  color: rgb(255, 253, 251);
+  border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 5em;
+  margin-bottom: 10px;
+  color:#ffd000e3 ;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.cta-btn {
+  background-color:  #b32d04;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+
+}
+
+.cta-btn:hover {
+  background-color:  #0033aa;
+}
+
+/* About Us Section Styles */
+.about-us {
+  margin-top: 60px;
+  padding: 30px 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color: #faf4f4;
+}
+
+.about-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffd000e3;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Services Section Styles */
+.services {
+  
+  margin-top: 60px;
+  padding: 50px 20px;
+  text-align: center;
+
+ 
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffd000e3;
+}
+
+.service {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #fcfafafa;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+.service:hover
+{
+background: #c8e6c9;
+  
+}
+
+.service h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.service-btn {
+  background-color:  #b32d04;
+  color: #faf4f4;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.service-btn:hover {
+  background-color: #0033aa;
+}
